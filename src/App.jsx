@@ -246,10 +246,10 @@ function App() {
       <Container maxWidth="lg" sx={{ py: 4 }}>
         {/* Header */}
         <Box textAlign="center" mb={4}>
-          <Typography variant="h3" component="h1" fontWeight="bold" color="#ffffffff" mb={2}>
+          <Typography variant="h3" component="h1" fontWeight="bold" color="primary" mb={2}>
             {team1.flag} {team1.name.toUpperCase()} vs {team2.name.toUpperCase()} {team2.flag}
           </Typography>
-          <Typography variant="h4" color="#cacacaff">
+          <Typography variant="h4" color="text.secondary">
             Esto es aleatorio asi que no llore si no gana 😂
           </Typography>
           <Box display="flex" justifyContent="center" alignItems="center" gap={2} mt={2}>
